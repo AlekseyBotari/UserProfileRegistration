@@ -1,0 +1,12 @@
+{
+  "URL": "https://demoqa.com/automation-practice-form",
+  "firstName": "firstName",
+  "lastName": "lastName",
+  "userEmail": "hello@cypress.io",
+  "userNumber": "3806367899",
+  "subjects": "subjects",
+  "dateOfBith": "06 09 88", 
+  "currentAddress": "Fixtures are a great way to mock data for responses to routes",
+  "selectState": "Haryana",
+  "selectCity": "Karnal"
+}
