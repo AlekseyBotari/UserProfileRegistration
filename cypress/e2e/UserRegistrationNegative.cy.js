@@ -33,7 +33,7 @@ describe('User registration form - nagative test cases', function () {
         cy.get('[id="submit"]').click() // Click the submit button to submit the form
         it('should not have .modal-content', function () {
             // Check that there is no element with class .modal-content
-            cy.get('.modal-content').should('not.exist');
+            cy.get('.modal-content').should('not.exist')
         });
     })
 
@@ -55,8 +55,8 @@ describe('User registration form - nagative test cases', function () {
         cy.get('[id="submit"]').click() // Click the submit button to submit the form
         it('should not have .modal-content', function () {
             // Check that there is no element with class .modal-content
-            cy.get('.modal-content').should('not.exist');
-        });
+            cy.get('.modal-content').should('not.exist')
+        })
     })
 
     it('Fill in "Mobile" and "Email" field with invalid data and "Submit" form', function () {
@@ -77,8 +77,8 @@ describe('User registration form - nagative test cases', function () {
         cy.get('[id="submit"]').click() // Click the submit button to submit the form
         it('should not have .modal-content', function () {
             // Check that there is no element with class .modal-content
-            cy.get('.modal-content').should('not.exist');
-        });
+            cy.get('.modal-content').should('not.exist')
+        })
     })
 
 })
